@@ -102,7 +102,6 @@ module Ruboty module Tenki
 			APPID: ENV["RUBOTY_TENKI_OPEN_WEATHER_MAP_APPID"],
 			lang: "ja"
 		}
-		p request
 
 		forecast = proc { |date|
 			http_get_json("http://api.openweathermap.org/data/2.5/forecast", request).yield_self { |res|
