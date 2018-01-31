@@ -1,3 +1,5 @@
+require_relative "../tenki.rb"
+
 module Ruboty module Handlers
 	class Tenki < Base
 		on(

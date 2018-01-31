@@ -1,5 +1,4 @@
 require "ruboty/tenki/version"
-require_relative "./handlers/tenki.rb"
 
 using Module.new {
 	refine String do
