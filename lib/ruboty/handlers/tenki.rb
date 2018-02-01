@@ -9,7 +9,7 @@ module Ruboty module Handlers
 		)
 
 		def weather message
-			message.reply(Tenki.get message.body)
+			message.reply(Ruboty::Tenki.get message.body)
 		end
 	end
 end end

@@ -1,25 +1,6 @@
 require "ruboty/tenki/version"
 
 using Module.new {
-	refine String do
-		agent = Mechanize.new
-		get	 = proc { |kanji|
-			agent.get("https://yomikatawa.com/kanji/#{kanji}")
-		}
-
-		define_method(:to_hiragana){
-			get.(self).search('#content p').first.inner_text
-		}
-
-		define_method(:to_romaji){
-			get.(self).search('#content p')[1].inner_text
-		}
-
-		define_method(:certain?){
-			get.(self).search('.alert').empty?
-		}
-	end
-
 	refine Hash do
 		def to_struct
 			Struct.new(*keys).new(*values)
