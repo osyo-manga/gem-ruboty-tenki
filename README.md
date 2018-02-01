@@ -40,10 +40,8 @@ Or install it yourself as:
 ## ENV
 
 ```
-RUBOTY_LINE_CHANNEL_SECRET - YOUR LINE BOT Channel Secret.
-RUBOTY_LINE_CHANNEL_TOKE   - YOUR LINE BOT Channel token.
-RUBOTY_LINE_ENDPOINT       - LINE bot endpoint(Callback URL). (e.g. '/message/reply'
-LOG_LEVEL                  - Use Ruboty logger. If LOG_LEVEL=0, output debug log.
+RUBOTY_TENKI_GOOGLE_MAP_APIKEY      - Google Maps Geocoding API:https://developers.google.com/maps/documentation/geocoding/start
+RUBOTY_TENKI_OPEN_WEATHER_MAP_APPID - OpenWeatherMap API:https://openweathermap.org/
 ```
 
 
@@ -55,4 +53,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruboty-tenki.
+Bug reports and pull requests are welcome on GitHub at https://github.com/osyo-manga/gem-ruboty-tenki.
