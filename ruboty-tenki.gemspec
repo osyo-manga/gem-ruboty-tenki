@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["manga_osyo"]
   spec.email         = ["manga.osyo@gmail.com"]
 
-  spec.summary       = %q{}
-  spec.description   = %q{}
+  spec.summary       = %q{Ruboty weather handler.}
+  spec.description   = %q{Ruboty weather handler.}
   spec.homepage      = "https://github.com/osyo-manga/gem-ruboty-tenki"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
