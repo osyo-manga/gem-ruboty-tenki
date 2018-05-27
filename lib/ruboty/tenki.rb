@@ -1,6 +1,8 @@
 require "ruboty/tenki/version"
 require "faraday"
 require "ostruct"
+require "json"
+require "date"
 
 using Module.new {
 	refine Hash do
