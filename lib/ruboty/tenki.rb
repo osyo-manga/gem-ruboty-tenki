@@ -1,4 +1,6 @@
 require "ruboty/tenki/version"
+require "faraday"
+require "ostruct"
 
 using Module.new {
 	refine Hash do
