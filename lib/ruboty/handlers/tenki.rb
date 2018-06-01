@@ -4,7 +4,7 @@ module Ruboty module Handlers
 	class Tenki < Base
 		on(
 			Ruboty::Tenki.query_matcher,
-			name: "tenki",
+			name: "weather",
 			description: "天気"
 		)
 

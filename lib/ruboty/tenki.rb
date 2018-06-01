@@ -1,4 +1,5 @@
 require "ruboty/tenki/version"
+require "ruboty/handlers/tenki"
 require "faraday"
 require "ostruct"
 require "json"
