@@ -1,5 +1,4 @@
 require "ruboty/tenki/version"
-require "ruboty/handlers/tenki"
 require "faraday"
 require "ostruct"
 require "json"
@@ -156,3 +155,5 @@ module Ruboty module Tenki
 		end.chomp
 	end
 end end
+
+require "ruboty/handlers/tenki"
